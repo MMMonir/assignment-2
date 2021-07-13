@@ -1,0 +1,48 @@
+/* Google Fonts- (Poppins) */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+
+/* Common Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+     font-family: 'Poppins', sans-serif;
+ }
+
+ /* Banner Section */
+ header{
+    display: flex;
+    justify-content: center;
+    background-color: #2d25a0;
+ }
+ .banner-container{
+    width: 1130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 0px;
+ }
+ .banner-des{
+     width: 485px;
+ }
+ .banner-title{
+    color: #ffffff;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: bold;
+ }
+ .btn {
+    background-color: #E02C6D;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 27px;
+    cursor: pointer;
+  }
+  .banner-image img{width: 100%;}
