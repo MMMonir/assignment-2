@@ -29,6 +29,9 @@
  .banner-des{
      width: 485px;
  }
+ span{
+    color: #E02C6D;
+ }
  .banner-title{
     color: #ffffff;
     font-size: 64px;
@@ -47,6 +50,18 @@
     text-align: center;
     text-decoration: none;
     cursor: pointer;
+    transition: border-radius  1s ease;
+}
+.btn:hover{
+   border-radius: 20px;
+}
+.fas{
+   font-size: 14px;
+   position: relative;
+   transition: font-size 1s ease;
+}
+.btn:hover .fas{
+   font-size: 18px;
 }
   .banner-image img{
      width: 100%;
@@ -73,6 +88,17 @@ main{
    background: #FFFFFF;
    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
+.player-image{
+   width: 100%;
+   max-height: 256px;
+   overflow: hidden
+}
+.player-image img {
+   transition: transform .5s ease;
+ }
+ .player-image:hover img {
+   transform: scale(1.2);
+ }
 .player-title{
    color: #18191F;
    font-size: 28px;
@@ -119,12 +145,48 @@ main{
    max-width: 567px;
 }
 
+/* Sponsor Section */
+.sponsor-container{
+   background-color: #ebebeb;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 70px;
+}
+.sponsor-top {
+   margin-top: 76px;
+}
+.sponsors{
+   width: 767px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   column-gap: 30px;
+   row-gap: 30px;
+   margin-top: 20px;
+   margin-bottom: 40px;
+   align-items: center;
+   padding: 30px 0px;
+}
+.sponsor {
+   display: flex;
+   justify-content: center;
+}
+.sponsor-title{
+   color: #E02C6D;
+   font-size: 48px;
+   line-height: 60px;
+   font-weight: bold;
+   margin-top: 3;
+}
+
 /* Footer */
 .footer-container{
    display: flex;
    flex-direction: column;
    align-items: center;
    margin-top: 50px;
+   margin-bottom: 60px;
 }
 .logos{
    display: grid;
@@ -143,4 +205,28 @@ main{
    line-height: 72px;
    font-weight: normal;
    letter-spacing: 2.01613px;
+}
+.footer-icon {
+   margin-top: 25px;
+   margin-bottom: 19px;
+}
+.footer-icon a{
+   text-decoration: none;
+}
+.icon-s{
+   color: #969BAB;
+   font-size: 17px;
+   width: 17px;
+   height: 17px;
+   text-align: center;
+   background-color: #e7e7e8;
+   padding: 7px;
+   margin: 7px;
+   border-radius: 50%;
+}
+.copyright{
+color: #000000;
+font-size: 18px;
+line-height: 24px;
+font-weight: normal;
 }
