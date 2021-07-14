@@ -292,8 +292,8 @@ font-weight: normal;
 /*-------------- Body Section---------------- */
 /*-------------- Players Section---------------- */
 
-  main{
-     width: 100%;
+main{
+   width: 100%;
   }
   .players-container {
    width: 100%;
@@ -302,7 +302,7 @@ font-weight: normal;
    display: grid;
    grid-template-columns: repeat(1, 1fr);
    row-gap: 24px;
-    margin: 47px 20px;
+   margin: 47px 20px;
 }
 .player{
    display: flex;
@@ -317,9 +317,44 @@ font-weight: normal;
 .player-image img {
    width: 100%;
 }
+/*-------------- Match Section---------------- */
 
 
-  .match-container, .ani-container, .sponsor-container, .footer-container {
+
+
+.match-container{
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   padding: 0px;
+   margin: 0px;
+}
+.match-info{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 90%;
+   padding: 5%;
+   margin: 0px;
+}
+.match-des{
+   width: 100%;
+   padding: 0px;
+}
+.match-title{
+   width: 100%;
+}
+.match-paragraph{
+   width: 100%;
+}
+.match-image{
+   width: 100%;
+}
+.match-image img{
+   width: 100%;
+}
+
+ .ani-container, .sponsor-container, .footer-container {
       display: none;
    }
 }
