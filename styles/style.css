@@ -370,7 +370,33 @@ main{
 .animation-gif img{
    height: auto;
 }
- .sponsor-container, .footer-container {
+
+/*-------------- Match Section---------------- */
+.sponsor-container{
+   width: 100%;
+   margin-top: 30px;
+}
+.sponsors{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 90%;
+   padding: 2% 5%;
+   margin: 0px;
+}
+.sponsor-top{
+   margin-top: 30px;
+}
+.sponsor{
+   width: 100%;
+}
+.sponsor-title{
+   font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+ .footer-container {
       display: none;
    }
 }
