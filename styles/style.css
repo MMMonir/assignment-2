@@ -183,7 +183,6 @@ main{
    margin-top: 70px;
 }
 .sponsor-top {
-   margin-top: 76px;
 }
 .sponsors{
    width: 767px;
@@ -386,17 +385,28 @@ main{
 }
 .sponsor-top{
    margin-top: 30px;
+   margin-bottom: 30px;
 }
 .sponsor{
    width: 100%;
 }
 .sponsor-title{
    font-size: 30px;
-    line-height: 40px;
-    font-weight: bold;
+   line-height: 40px;
+   font-weight: bold;
+   margin-bottom: 3;
+}
+/*-------------- Footer Section---------------- */
+.footer-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.logos{
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   row-gap: 5px;
 }
 
- .footer-container {
-      display: none;
-   }
+
 }
