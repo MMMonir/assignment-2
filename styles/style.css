@@ -94,10 +94,11 @@ main{
    overflow: hidden
 }
 .player-image img {
-   transition: transform .5s ease;
+   transition: transform 2s;
  }
  .player-image:hover img {
    transform: scale(1.2);
+   cursor: pointer;
  }
 .player-title{
    color: #18191F;
@@ -144,7 +145,31 @@ main{
 .match-image img {
    max-width: 567px;
 }
-
+/* Animation Image Section */
+.ani-container{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 70px;
+}
+.animation-gif{
+   max-width: 969px;
+   max-height: 250px;
+   margin-top: -7px;
+   border-radius: 20px;
+   box-shadow: 0px 0px 7px #000000;
+   overflow: hidden;
+}
+.animation-gif img{
+   width: 100%;
+   height: 252px;
+   transition: transform 2s;
+}
+.animation-gif:hover img{
+   transform: scale(1.2);
+   cursor: pointer;
+}
 /* Sponsor Section */
 .sponsor-container{
    background-color: #ebebeb;
