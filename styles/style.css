@@ -404,9 +404,9 @@ main{
 }
 .logos{
    display: grid;
-   grid-template-columns: repeat(1, 1fr);
-   row-gap: 5px;
+   grid-template-columns: repeat(2, 1fr);
+   /* row-gap: 22px; */
+   /* column-gap: 30px; */
 }
-
 
 }
