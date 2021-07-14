@@ -259,13 +259,16 @@ line-height: 24px;
 font-weight: normal;
 }
 
-/* Media Queries */
+/* ---------------------------------
+         Media Queries
+   --------------------------------- */
 
 /* Mobile Screen */
 @media only screen and (max-width: 688px) {
    header{
       max-width: 688px;
    }
+/*------ Banner Section ------ */
    .banner-container{
       display: flex;
       flex-direction: column;
@@ -286,9 +289,37 @@ font-weight: normal;
       width: 93%;
   }
 
+/*-------------- Body Section---------------- */
+/*-------------- Players Section---------------- */
+
+  main{
+     width: 100%;
+  }
+  .players-container {
+   width: 100%;
+}
+  .players{
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   row-gap: 24px;
+    margin: 47px 20px;
+}
+.player{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 90%;
+   padding: 5%;
+}
+.player-image {
+   max-width: 300px;
+}
+.player-image img {
+   width: 100%;
+}
 
 
-   .players-container, match-container, .ani-container, .sponsor-container, .footer-container, .match-container{
+  .match-container, .ani-container, .sponsor-container, .footer-container {
       display: none;
    }
 }
