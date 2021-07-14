@@ -70,6 +70,21 @@ main{
    background: #FFFFFF;
    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
+.player-title{
+   color: #18191F;
+   font-size: 28px;
+   line-height: 40px;
+   font-weight: bold;
+   padding-top: 14px;
+   padding-bottom: 11px;
+}
+.player-details{
+   color: #6C6C6C;
+   font-size: 16px;
+   line-height: 26px;
+   font-weight: normal;
+   padding-bottom: 15px;
+}
 
 /* Match Section */
 .match-container {
@@ -80,7 +95,19 @@ main{
    grid-template-columns: repeat(2, 1fr);
    align-items: center;
 }
-.match-des {
-   padding-left: 20px;
-   padding-right: 65px;
+.match-des {padding: 0px 50px;}
+.match-title {
+   color: #0A0826;
+   font-size: 48px;
+   line-height: 60px;
+   font-weight: bold;
+   padding-bottom: 7px;
+   max-width: 469px;
+}
+.match-paragraph {
+   color: #6C6C6C;
+   font-size: 16px;
+   line-height: 28px;
+   font-weight: normal;
+   max-width: 404px;
 }
