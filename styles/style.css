@@ -318,10 +318,6 @@ main{
    width: 100%;
 }
 /*-------------- Match Section---------------- */
-
-
-
-
 .match-container{
    width: 100%;
    display: grid;
@@ -334,27 +330,47 @@ main{
    flex-direction: column;
    align-items: center;
    width: 90%;
-   padding: 5%;
+   padding: 2% 5%;
    margin: 0px;
 }
 .match-des{
    width: 100%;
    padding: 0px;
+   margin-bottom: 25px;
 }
 .match-title{
    width: 100%;
+   font-size: 30px;
+   line-height: 40px;
+   font-weight: bold;
 }
 .match-paragraph{
    width: 100%;
 }
 .match-image{
+   display: flex;
    width: 100%;
+   justify-content: center;
 }
 .match-image img{
    width: 100%;
 }
 
- .ani-container, .sponsor-container, .footer-container {
+/*-------------- Match Section---------------- */
+.ani-container{
+   width: 100%;
+   margin-top: 0px;
+}
+.animation-gif{
+   width: 84%;
+   height: auto;
+   padding: 3%;
+   margin: 5%;
+}
+.animation-gif img{
+   height: auto;
+}
+ .sponsor-container, .footer-container {
       display: none;
    }
 }
