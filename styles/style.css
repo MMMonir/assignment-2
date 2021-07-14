@@ -403,10 +403,23 @@ main{
    align-items: center;
 }
 .logos{
-   display: grid;
    grid-template-columns: repeat(2, 1fr);
-   /* row-gap: 22px; */
-   /* column-gap: 30px; */
+   display: flex;
+}
+.logo{
+    Width: 150px;
 }
 
+.logo img{
+    Width: 150px;
+    Height: 63px;
+}
+.company-name {
+    color: #10437A;
+    font-family: 'Niconne', cursive;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: normal;
+    letter-spacing: 1.01613px;
+}
 }
