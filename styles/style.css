@@ -10,14 +10,17 @@
     padding: 0;
 }
  body{
+    width: 100%;
      font-family: 'Poppins', sans-serif;
  }
 
  /* Banner Section */
  header{
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: #2d25a0;
+    /* flex-wrap: wrap; */
  }
  .banner-container{
     width: 1130px;
@@ -254,4 +257,38 @@ color: #000000;
 font-size: 18px;
 line-height: 24px;
 font-weight: normal;
+}
+
+/* Media Queries */
+
+/* Mobile Screen */
+@media only screen and (max-width: 688px) {
+   header{
+      max-width: 688px;
+   }
+   .banner-container{
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+      margin-bottom: 60px;
+   }
+   .banner-des {
+      width: 93%;
+      margin-bottom: 50px;
+  }
+  .banner-title{
+      font-size: 36px;
+      line-height: 50px;
+      font-weight: 700;
+      word-break: break-word;
+  }
+  .banner-image{
+      width: 93%;
+  }
+
+
+
+   .players-container, match-container, .ani-container, .sponsor-container, .footer-container, .match-container{
+      display: none;
+   }
 }
