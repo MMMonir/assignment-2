@@ -44,5 +44,43 @@
     text-decoration: none;
     margin-top: 27px;
     cursor: pointer;
-  }
-  .banner-image img{width: 100%;}
+}
+  .banner-image img{
+     width: 100%;
+}
+
+/* Players Section */
+main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.players-container{
+   width: 1100px;
+}
+.players{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   column-gap: 30px;
+   row-gap: 30px;
+   margin: 70px 25px;
+}
+.player{
+   padding: 15px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Match Section */
+.match-container {
+   width: 1150px;
+}
+.match-info {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+}
+.match-des {
+   padding-left: 20px;
+   padding-right: 65px;
+}
