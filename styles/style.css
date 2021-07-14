@@ -31,6 +31,7 @@
     font-size: 64px;
     line-height: 80px;
     font-weight: bold;
+    margin-bottom: 27px;
  }
  .btn {
     background-color: #E02C6D;
@@ -42,7 +43,6 @@
     padding: 10px 24px;
     text-align: center;
     text-decoration: none;
-    margin-top: 27px;
     cursor: pointer;
 }
   .banner-image img{
@@ -110,4 +110,8 @@ main{
    line-height: 28px;
    font-weight: normal;
    max-width: 404px;
+   margin-bottom: 25px;
+}
+.match-image img {
+   max-width: 567px;
 }
